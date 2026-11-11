@@ -1,0 +1,83 @@
+context: cpq
+generated: '2026-11-11'
+adopters:
+- provider: 1fort
+  apis_io: https://apis.io/providers/1fort/
+  crosswalk: crosswalk/1fort.yml
+  concepts:
+  - sales_quote
+- provider: apollo-insurance
+  apis_io: https://apis.io/providers/apollo-insurance/
+  crosswalk: crosswalk/apollo-insurance.yml
+  concepts:
+  - sales_quote
+- provider: at-bay
+  apis_io: https://apis.io/providers/at-bay/
+  crosswalk: crosswalk/at-bay.yml
+  concepts:
+  - sales_quote
+- provider: cacheflow
+  apis_io: https://apis.io/providers/cacheflow/
+  crosswalk: crosswalk/cacheflow.yml
+  concepts:
+  - sales_quote
+- provider: conga
+  apis_io: https://apis.io/providers/conga/
+  crosswalk: crosswalk/conga.yml
+  concepts:
+  - sales_quote
+- provider: dealhub
+  apis_io: https://apis.io/providers/dealhub/
+  crosswalk: crosswalk/dealhub.yml
+  concepts:
+  - sales_quote
+- provider: evari
+  apis_io: https://apis.io/providers/evari/
+  crosswalk: crosswalk/evari.yml
+  concepts:
+  - sales_quote
+- provider: fulcrumpro
+  apis_io: https://apis.io/providers/fulcrumpro/
+  crosswalk: crosswalk/fulcrumpro.yml
+  concepts:
+  - sales_quote
+- provider: healthsherpa
+  apis_io: https://apis.io/providers/healthsherpa/
+  crosswalk: crosswalk/healthsherpa.yml
+  concepts:
+  - sales_quote
+- provider: herald
+  apis_io: https://apis.io/providers/herald/
+  crosswalk: crosswalk/herald.yml
+  concepts:
+  - sales_quote
+- provider: monetizenow
+  apis_io: https://apis.io/providers/monetizenow/
+  crosswalk: crosswalk/monetizenow.yml
+  concepts:
+  - sales_quote
+- provider: pax8
+  apis_io: https://apis.io/providers/pax8/
+  crosswalk: crosswalk/pax8.yml
+  concepts:
+  - sales_quote
+- provider: pie-insurance
+  apis_io: https://apis.io/providers/pie-insurance/
+  crosswalk: crosswalk/pie-insurance.yml
+  concepts:
+  - sales_quote
+- provider: progressive
+  apis_io: https://apis.io/providers/progressive/
+  crosswalk: crosswalk/progressive.yml
+  concepts:
+  - sales_quote
+- provider: tradify
+  apis_io: https://apis.io/providers/tradify/
+  crosswalk: crosswalk/tradify.yml
+  concepts:
+  - sales_quote
+- provider: zayo-group
+  apis_io: https://apis.io/providers/zayo-group/
+  crosswalk: crosswalk/zayo-group.yml
+  concepts:
+  - sales_quote

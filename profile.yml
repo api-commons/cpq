@@ -1,0 +1,202 @@
+context: cpq
+name: Configure, Price, Quote
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - CPQ
+  - Configure Price Quote
+  - Quoting
+  - Sales Quotes
+  - Proposals
+  - Quote Management
+  - Revenue Operations
+  providers_with_harvested_openapi: 46
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates:
+  knownwell:
+  - 2x
+shared_specs: {}
+concepts:
+  sales_quote:
+    segments_seen:
+      quotes: 13
+      quote: 5
+      proposal: 2
+      proposals: 1
+    providers_exposing: 16
+    providers_with_readable_schema: 16
+    operations:
+    - operation: POST collection
+      providers: 14
+      share: 0.875
+      tier: core
+    - operation: GET item
+      providers: 12
+      share: 0.75
+      tier: core
+    - operation: GET collection
+      providers: 9
+      share: 0.562
+      tier: core
+    - operation: UPDATE item
+      providers: 8
+      share: 0.5
+      tier: core
+    - operation: DELETE item
+      providers: 5
+      share: 0.312
+      tier: extended
+    - operation: DELETE collection
+      providers: 1
+      share: 0.062
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.062
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 11
+      share: 0.688
+      type: string
+      spellings:
+      - id
+      - Id
+      - quote_id
+      - quoteId
+    - name: status
+      tier: core
+      providers: 10
+      share: 0.625
+      type: string
+      spellings:
+      - status
+    - name: account_id
+      tier: extended
+      providers: 7
+      share: 0.438
+      type: string
+      spellings:
+      - customerId
+      - customer
+      - company_id
+      - Account
+      - companyId
+      - accountId
+    - name: expires_at
+      tier: extended
+      providers: 6
+      share: 0.375
+      type: string
+      spellings:
+      - expiration_date
+      - expirationDate
+      - expiresAt
+      - expiryDate
+    - name: created_at
+      tier: extended
+      providers: 5
+      share: 0.312
+      type: string
+      spellings:
+      - createdAt
+      - created_at
+      - CreatedDate
+      - createdOn
+    - name: description
+      tier: extended
+      providers: 5
+      share: 0.312
+      type: string
+      spellings:
+      - description
+      - Description
+    - name: owner_id
+      tier: extended
+      providers: 5
+      share: 0.312
+      type: string
+      spellings:
+      - createdBy
+      - owner
+      - ownerId
+      - created_by
+      - CreatedBy
+      - Owner
+    - name: deal_id
+      tier: extended
+      providers: 4
+      share: 0.25
+      type: string
+      spellings:
+      - opportunity
+      - Opportunity
+      - opportunity_id
+      - opportunityId
+    - name: name
+      tier: extended
+      providers: 4
+      share: 0.25
+      type: string
+      spellings:
+      - name
+      - Name
+      - display_name
+    - name: number
+      tier: extended
+      providers: 4
+      share: 0.25
+      type: string
+      spellings:
+      - number
+      - quote_number
+      - quoteNumber
+    long_tail_count: 479
+    long_tail_sample:
+    - contacts
+    - currency
+    - effective_date
+    - line_items
+    - total
+    - type
+    - updated_at
+    - accepted_at
+    - answers
+    - approvals
+    - attachments
+    - billing_address
+    - bind_status
+    - broker
+    - client
+    - contract_id
+    - coverage_type
+    - discount
+    - due_date
+    - end_date
+    - external_id
+    - insured_address
+    - is_system_generated
+    - location
+    - metadata
+    - payment_term
+    - premium
+    - product
+    - proposal_number
+    - purchase_order_number
+    - retention
+    - shipping_address
+    - source
+    - start_date
+    - abo_type
+    - accepted_by
+    - accepted_by_contact
+    - accepted_by_user
+    - accepted_schedule_id
+    - access_level

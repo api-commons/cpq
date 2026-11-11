@@ -1,0 +1,15 @@
+provider: zayo-group
+apis_io: https://apis.io/providers/zayo-group/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quote
+    properties:
+      id: quoteId
+      number: quoteNumber
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/zayo-group-openapi.yml#GET /services/quote-management/v3/quotes/quote/{quoteId}
+    - openapi/_original/zayo-group-openapi.yml#POST /services/quote-management/v3/quotes/quote

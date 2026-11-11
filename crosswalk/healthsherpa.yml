@@ -1,0 +1,15 @@
+provider: healthsherpa
+apis_io: https://apis.io/providers/healthsherpa/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quotes
+    properties:
+      name:
+      - name
+      - display_name
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/healthsherpa-openapi.json#POST /v1/quotes

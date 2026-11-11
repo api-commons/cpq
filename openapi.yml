@@ -1,0 +1,113 @@
+openapi: 3.1.0
+info:
+  title: Configure, Price, Quote (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common Configure, Price, Quote interface, distilled from the harvested OpenAPI of 46 providers
+    in the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /sales-quotes:
+    post:
+      operationId: createSalesQuote
+      summary: Create a sales quote
+      tags:
+      - Sales Quotes
+      x-commons-tier: core
+      x-commons-share: 0.875
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: &id001
+                $ref: '#/components/schemas/SalesQuote'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+    get:
+      operationId: listSalesQuotes
+      summary: List sales quotes
+      tags:
+      - Sales Quotes
+      x-commons-tier: core
+      x-commons-share: 0.562
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: *id001
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /sales-quotes/{sales_quote_id}:
+    parameters:
+    - $ref: '#/components/parameters/sales_quote_id'
+    get:
+      operationId: getSalesQuote
+      summary: Get a sales quote
+      tags:
+      - Sales Quotes
+      x-commons-tier: core
+      x-commons-share: 0.75
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    patch:
+      operationId: updateSalesQuote
+      summary: Update a sales quote
+      tags:
+      - Sales Quotes
+      x-commons-tier: core
+      x-commons-share: 0.5
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+    delete:
+      operationId: deleteSalesQuote
+      summary: Delete a sales quote
+      tags:
+      - Sales Quotes
+      x-commons-tier: extended
+      x-commons-share: 0.312
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+components:
+  schemas:
+    SalesQuote:
+      $ref: ./schema/sales_quote.json
+  parameters:
+    sales_quote_id:
+      name: sales_quote_id
+      in: path
+      required: true
+      schema:
+        type: string

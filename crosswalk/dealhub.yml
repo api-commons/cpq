@@ -1,0 +1,20 @@
+provider: dealhub
+apis_io: https://apis.io/providers/dealhub/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quote
+    - quotes
+    properties:
+      id: quote_id
+      status: status
+      deal_id: opportunity_id
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/dealhub-crm-api-openapi.json#POST /api/v2/quotes
+    - openapi/_original/dealhub-crm-api-openapi.yml#POST /api/v2/quotes
+    - openapi/_original/dealhub-partner-api-openapi.json#POST /api/v1/create/quote
+    - openapi/_original/dealhub-partner-api-openapi.json#POST /api/v1/open/quote
+    - openapi/_original/dealhub-partner-api-openapi.yml#POST /api/v1/create/quote

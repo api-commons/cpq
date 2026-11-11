@@ -1,0 +1,45 @@
+aid: common-cpq
+name: Configure, Price, Quote
+type: Common
+description: 'The common Configure, Price, Quote vocabulary, distilled from the harvested OpenAPI of 46 providers
+  in APIs.io: shared operations, JSON Schema per concept with measured adoption, and a crosswalk from the common
+  names to each provider''s own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- CPQ
+- Configure Price Quote
+- Quoting
+- Sales Quotes
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/cpq/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-cpq:cpq
+  name: Common Configure, Price, Quote Interface
+  description: The Configure, Price, Quote interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/cpq
+  tags:
+  - CPQ
+  - Configure Price Quote
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/cpq/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/cpq/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/cpq/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: sales_quote
+    url: https://raw.githubusercontent.com/api-commons/cpq/main/schema/sales_quote.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/cpq/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

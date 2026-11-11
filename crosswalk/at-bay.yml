@@ -1,0 +1,16 @@
+provider: at-bay
+apis_io: https://apis.io/providers/at-bay/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quotes
+    properties:
+      status: status
+      account_id: company_id
+      expires_at: expiration_date
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/at-bay-partner-api-openapi.yml#GET /quotes/{quote_identifier}
+    - openapi/_original/at-bay-partner-api-openapi.yml#POST /quotes

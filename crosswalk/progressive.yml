@@ -1,0 +1,13 @@
+provider: progressive
+apis_io: https://apis.io/providers/progressive/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quotes
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/progressive-auto-quote-api-openapi.yml#GET /quotes
+    - openapi/_original/progressive-auto-quote-api-openapi.yml#POST /quotes

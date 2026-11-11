@@ -1,0 +1,30 @@
+provider: cacheflow
+apis_io: https://apis.io/providers/cacheflow/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - proposals
+    - proposal
+    properties:
+      id: id
+      status: status
+      account_id:
+      - customer
+      - customerId
+      expires_at: expiresAt
+      created_at: createdAt
+      description: description
+      owner_id:
+      - createdBy
+      - owner
+      - ownerId
+      name: name
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/cacheflow-api-openapi.yml#DELETE /api/latest/proposals/{id}
+    - openapi/_original/cacheflow-api-openapi.yml#GET /api/latest/data/contracts/{id}/proposals
+    - openapi/_original/cacheflow-api-openapi.yml#GET /api/latest/data/customers/{id}/proposals
+    - openapi/_original/cacheflow-api-openapi.yml#GET /api/latest/proposals
+    - openapi/_original/cacheflow-api-openapi.yml#GET /api/latest/proposals/{id}

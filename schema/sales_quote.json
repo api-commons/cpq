@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/cpq/main/schema/sales_quote.json",
+  "title": "Sales Quote",
+  "description": "The common sales_quote in Configure, Price, Quote, distilled from 16 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.688,
+      "x-commons-providers": 11,
+      "x-commons-spellings": [
+        "id",
+        "Id",
+        "quote_id",
+        "quoteId"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.625,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "status"
+      ]
+    },
+    "account_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.438,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "customerId",
+        "customer",
+        "company_id",
+        "Account",
+        "companyId",
+        "accountId"
+      ]
+    },
+    "expires_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.375,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "expiration_date",
+        "expirationDate",
+        "expiresAt",
+        "expiryDate"
+      ],
+      "format": "date-time"
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.312,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "createdAt",
+        "created_at",
+        "CreatedDate",
+        "createdOn"
+      ],
+      "format": "date-time"
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.312,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "description",
+        "Description"
+      ]
+    },
+    "owner_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.312,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "createdBy",
+        "owner",
+        "ownerId",
+        "created_by",
+        "CreatedBy",
+        "Owner"
+      ]
+    },
+    "deal_id": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.25,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "opportunity",
+        "Opportunity",
+        "opportunity_id",
+        "opportunityId"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.25,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "name",
+        "Name",
+        "display_name"
+      ]
+    },
+    "number": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.25,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "number",
+        "quote_number",
+        "quoteNumber"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "cpq",
+    "concept": "sales_quote",
+    "providers": 16,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

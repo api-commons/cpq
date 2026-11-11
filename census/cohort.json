@@ -1,0 +1,393 @@
+[
+ {
+  "slug": "1fort",
+  "specs": [
+   "openapi/_original/1fort-openapi-original.yml",
+   "openapi/_original/1fort-openapi.json"
+  ]
+ },
+ {
+  "slug": "2x",
+  "specs": [
+   "openapi/_original/2x-knownwell-openapi.json"
+  ]
+ },
+ {
+  "slug": "apollo-insurance",
+  "specs": [
+   "openapi/_original/apollo-insurance-affiliates-legacy.yml",
+   "openapi/_original/apollo-insurance-affiliates.yml",
+   "openapi/_original/apollo-insurance-covertrack.yml"
+  ]
+ },
+ {
+  "slug": "at-bay",
+  "specs": [
+   "openapi/_original/at-bay-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "aurora-solar",
+  "specs": [
+   "openapi/_original/aurora-solar-openapi.json"
+  ]
+ },
+ {
+  "slug": "boostup",
+  "specs": [
+   "openapi/_original/boostup-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "buildxact",
+  "specs": [
+   "openapi/_original/buildxact-public-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cacheflow",
+  "specs": [
+   "openapi/_original/cacheflow-api-openapi.yml",
+   "openapi/_original/cacheflow-openapi.json"
+  ]
+ },
+ {
+  "slug": "chili-piper",
+  "specs": [
+   "openapi/_original/chili-piper-availability-inspector-openapi.yaml",
+   "openapi/_original/chili-piper-chat-conversation-inspector-openapi.yaml",
+   "openapi/_original/chili-piper-concierge-debugger-openapi.yaml",
+   "openapi/_original/chili-piper-concierge-router-builder-openapi.yaml",
+   "openapi/_original/chili-piper-concierge-router-configuration-openapi.yaml",
+   "openapi/_original/chili-piper-distribution-analysis-openapi.yaml",
+   "openapi/_original/chili-piper-distro-debugger-openapi.yaml",
+   "openapi/_original/chili-piper-distro-router-configuration-openapi.yaml",
+   "openapi/_original/chili-piper-handoff-router-configuration-openapi.yaml",
+   "openapi/_original/chili-piper-meeting-inspector-openapi.yaml",
+   "openapi/_original/chili-piper-meeting-type-management-openapi.yaml",
+   "openapi/_original/chili-piper-no-show-analyzer-openapi.yaml",
+   "openapi/_original/chili-piper-org-meeting-openapi.yaml",
+   "openapi/_original/chili-piper-routing-audit-openapi.yaml",
+   "openapi/_original/chili-piper-scheduling-link-management-openapi.yaml",
+   "openapi/_original/chili-piper-user-copy-openapi.yaml",
+   "openapi/_original/chili-piper-user-details-openapi.yaml",
+   "openapi/_original/chili-piper-user-meetings-openapi.yaml",
+   "openapi/_original/chili-piper-user-offboarding-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "clari",
+  "specs": [
+   "openapi/_original/clari-copilot-api-openapi.yml",
+   "openapi/_original/clari-revenue-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "conga",
+  "specs": [
+   "openapi/_original/conga-administration.json",
+   "openapi/_original/conga-approvals.json",
+   "openapi/_original/conga-asset.json",
+   "openapi/_original/conga-audit.json",
+   "openapi/_original/conga-billing-management.json",
+   "openapi/_original/conga-cart-v1.json",
+   "openapi/_original/conga-catalog.json",
+   "openapi/_original/conga-configuration-management.json",
+   "openapi/_original/conga-conga-sign.json",
+   "openapi/_original/conga-contracts.json",
+   "openapi/_original/conga-conversion-management.json",
+   "openapi/_original/conga-data.json",
+   "openapi/_original/conga-document-management.json",
+   "openapi/_original/conga-email.json",
+   "openapi/_original/conga-esignature.json",
+   "openapi/_original/conga-extensibility.json",
+   "openapi/_original/conga-externalendpointconfiguration.json",
+   "openapi/_original/conga-file-store.json",
+   "openapi/_original/conga-incentive-administration.json",
+   "openapi/_original/conga-ingress.json",
+   "openapi/_original/conga-invoice-management.json",
+   "openapi/_original/conga-localization.json",
+   "openapi/_original/conga-order.json",
+   "openapi/_original/conga-quote.json",
+   "openapi/_original/conga-rebate-administration.json",
+   "openapi/_original/conga-review.json",
+   "openapi/_original/conga-scheduler.json",
+   "openapi/_original/conga-schema-manager.json",
+   "openapi/_original/conga-search.json",
+   "openapi/_original/conga-user-management.json",
+   "openapi/_original/conga-x-author.json"
+  ]
+ },
+ {
+  "slug": "d-tools",
+  "specs": [
+   "openapi/_original/d-tools-cloud-api-openapi.yml",
+   "openapi/_original/d-tools-cloud-openapi.json",
+   "openapi/_original/d-tools-si-api-openapi.yml",
+   "openapi/_original/d-tools-si-openapi.json"
+  ]
+ },
+ {
+  "slug": "databook",
+  "specs": [
+   "openapi/_original/databook-openapi.json"
+  ]
+ },
+ {
+  "slug": "dealhub",
+  "specs": [
+   "openapi/_original/dealhub-callout-api-openapi.json",
+   "openapi/_original/dealhub-callout-api-openapi.yml",
+   "openapi/_original/dealhub-crm-api-openapi.json",
+   "openapi/_original/dealhub-crm-api-openapi.yml",
+   "openapi/_original/dealhub-crm-import-api-openapi.json",
+   "openapi/_original/dealhub-external-query-openapi.json",
+   "openapi/_original/dealhub-external-query-openapi.yml",
+   "openapi/_original/dealhub-headless-api-openapi.json",
+   "openapi/_original/dealhub-headless-api-openapi.yml",
+   "openapi/_original/dealhub-partner-api-openapi.json",
+   "openapi/_original/dealhub-partner-api-openapi.yml",
+   "openapi/_original/dealhub-pricing-api-openapi.json",
+   "openapi/_original/dealhub-pricing-api-openapi.yml",
+   "openapi/_original/dealhub-quote-api-openapi.json",
+   "openapi/_original/dealhub-quote-api-openapi.yml",
+   "openapi/_original/dealhub-subskribe-api-openapi.json",
+   "openapi/_original/dealhub-subskribe-api-openapi.yml",
+   "openapi/_original/dealhub-user-api-openapi.json",
+   "openapi/_original/dealhub-user-api-openapi.yml",
+   "openapi/_original/dealhub-version-api-openapi.json",
+   "openapi/_original/dealhub-version-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dealhubio",
+  "specs": [
+   "openapi/_original/dealhubio-callout-api-readme-slices.json",
+   "openapi/_original/dealhubio-crm-api-readme-slices.json",
+   "openapi/_original/dealhubio-crm-import-api-readme-slices.json",
+   "openapi/_original/dealhubio-external-query-readme-slices.json",
+   "openapi/_original/dealhubio-headless-api-readme-slices.json",
+   "openapi/_original/dealhubio-partner-api-readme-slices.json",
+   "openapi/_original/dealhubio-pricing-api-readme-slices.json",
+   "openapi/_original/dealhubio-quote-api-readme-slices.json",
+   "openapi/_original/dealhubio-subskribe-api-readme-slices.json",
+   "openapi/_original/dealhubio-user-api-readme-slices.json",
+   "openapi/_original/dealhubio-version-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "decisionlink",
+  "specs": [
+   "openapi/_original/decisionlink-collaboration-openapi.json",
+   "openapi/_original/decisionlink-collaboration-openapi.yml",
+   "openapi/_original/decisionlink-value-chat-openapi.json",
+   "openapi/_original/decisionlink-value-chat-openapi.yml",
+   "openapi/_original/decisionlink-value-facts-openapi.json",
+   "openapi/_original/decisionlink-value-facts-openapi.yml",
+   "openapi/_original/decisionlink-value-proposition-openapi.json",
+   "openapi/_original/decisionlink-value-proposition-openapi.yml"
+  ]
+ },
+ {
+  "slug": "evari",
+  "specs": [
+   "openapi/_original/evari-quotes-api-swagger.json"
+  ]
+ },
+ {
+  "slug": "fintary",
+  "specs": [
+   "openapi/_original/fintary-ams-api-openapi.json",
+   "openapi/_original/fintary-ams-api-openapi.yml",
+   "openapi/_original/fintary-open-api-openapi.json",
+   "openapi/_original/fintary-open-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fulcrumpro",
+  "specs": [
+   "openapi/_original/fulcrumpro-openapi.json"
+  ]
+ },
+ {
+  "slug": "fullcast",
+  "specs": [
+   "openapi/_original/fullcast-assistant-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "getaccept",
+  "specs": [
+   "openapi/_original/getaccept-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "healthsherpa",
+  "specs": [
+   "openapi/_original/healthsherpa-openapi.json"
+  ]
+ },
+ {
+  "slug": "herald",
+  "specs": [
+   "openapi/_original/herald-openapi.yml"
+  ]
+ },
+ {
+  "slug": "honeybook",
+  "specs": [
+   "openapi/_original/honeybook-openapi.json"
+  ]
+ },
+ {
+  "slug": "jobber",
+  "specs": [
+   "openapi/_original/jobber-developer-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "knownwell",
+  "specs": [
+   "openapi/_original/knownwell-ci-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "leadiq",
+  "specs": [
+   "openapi/_original/leadiq-data-api-openapi.yml",
+   "openapi/_original/leadiq-prospector-api-openapi.json",
+   "openapi/_original/leadiq-prospector-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "leandata",
+  "specs": [
+   "openapi/_original/leandata-bookit-openapi.yml",
+   "openapi/_original/leandata-graph-openapi.yml",
+   "openapi/_original/leandata-matching-openapi.yml"
+  ]
+ },
+ {
+  "slug": "logikio",
+  "specs": [
+   "openapi/_original/logikio-admin-blueprint-openapi-original.yml",
+   "openapi/_original/logikio-admin-managed-tables-openapi-original.yml",
+   "openapi/_original/logikio-runtime-v1-openapi-original.yml",
+   "openapi/_original/logikio-runtime-v2-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "loopio",
+  "specs": [
+   "openapi/_original/loopio-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "monaco",
+  "specs": [
+   "openapi/_original/monaco-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "monetizenow",
+  "specs": [
+   "openapi/_original/monetizenow-openapi.json"
+  ]
+ },
+ {
+  "slug": "nooks",
+  "specs": [
+   "openapi/_original/nooks-sequencing-openapi.yml"
+  ]
+ },
+ {
+  "slug": "outreach",
+  "specs": [
+   "openapi/_original/outreach-openapi.json",
+   "openapi/_original/outreach-openapi.yml"
+  ]
+ },
+ {
+  "slug": "paperless-parts",
+  "specs": [
+   "openapi/_original/paperless-parts-v1-openapi-original.yml",
+   "openapi/_original/paperless-parts-v1-openapi.yml",
+   "openapi/_original/paperless-parts-v2-openapi-original.yml",
+   "openapi/_original/paperless-parts-v2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "pax8",
+  "specs": [
+   "openapi/_original/pax8-authentication-openapi.json",
+   "openapi/_original/pax8-partner-endpoints-openapi.json",
+   "openapi/_original/pax8-quoting-endpoints-openapi.json",
+   "openapi/_original/pax8-vendor-provisioning-endpoints-openapi.json",
+   "openapi/_original/pax8-vendor-usage-endpoints-openapi.json",
+   "openapi/_original/pax8-webhooks-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "phasio",
+  "specs": [
+   "openapi/_original/phasio-openapi.json"
+  ]
+ },
+ {
+  "slug": "pie-insurance",
+  "specs": [
+   "openapi/_original/pie-insurance-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "progressive",
+  "specs": [
+   "openapi/_original/progressive-auto-quote-api-openapi.yml",
+   "openapi/_original/progressive-certificate-of-insurance-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "quotapath",
+  "specs": [
+   "openapi/_original/quotapath-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "semsee",
+  "specs": [
+   "openapi/_original/semsee-openapi.yml"
+  ]
+ },
+ {
+  "slug": "stack-moxie",
+  "specs": [
+   "openapi/_original/stack-moxie-openapi.json",
+   "openapi/_original/stack-moxie-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sweep",
+  "specs": [
+   "openapi/_original/sweep-api-openapi.yml",
+   "openapi/_original/sweep-openapi.json"
+  ]
+ },
+ {
+  "slug": "tradify",
+  "specs": [
+   "openapi/_original/tradify-openapi.yml"
+  ]
+ },
+ {
+  "slug": "usergems",
+  "specs": [
+   "openapi/_original/usergems-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zayo-group",
+  "specs": [
+   "openapi/_original/zayo-group-openapi.yml"
+  ]
+ }
+]

@@ -1,0 +1,28 @@
+provider: conga
+apis_io: https://apis.io/providers/conga/
+context: cpq
+generated: '2026-11-11'
+concepts:
+  sales_quote:
+    path_segment:
+    - quotes
+    - quote
+    properties:
+      id: Id
+      account_id: Account
+      created_at: CreatedDate
+      description: Description
+      owner_id:
+      - CreatedBy
+      - Owner
+      deal_id: Opportunity
+      name:
+      - name
+      - Name
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/conga-cart-v1.json#POST /api/cart/v1/carts/{cartId}/quote
+    - openapi/_original/conga-quote.json#DELETE /quotes
+    - openapi/_original/conga-quote.json#DELETE /quotes/{Id}
+    - openapi/_original/conga-quote.json#GET /quotes
+    - openapi/_original/conga-quote.json#GET /quotes/{Id}
